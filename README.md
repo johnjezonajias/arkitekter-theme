@@ -20,12 +20,10 @@ To further customize the Simple Arkitekter Theme, you can edit the theme files d
 
 To create a child theme, simply create a new directory in your WordPress themes directory with the name of your child theme. In this directory, create a file called style.css and add the following code:
 
-<code>
-/*
+```/*
  Theme Name:   My Child Theme
  Template:     simple-arkitekter-theme
-*/
-</code>
+*/```
 
 Replace "My Child Theme" with the name of your child theme, and "simple-arkitekter-theme" with the name of the Simple Arkitekter Theme directory.
 
