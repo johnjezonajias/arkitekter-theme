@@ -23,7 +23,7 @@ To create a child theme, simply create a new directory in your WordPress themes 
 ```/*
  Theme Name:   My Child Theme
  Template:     simple-arkitekter-theme
-*/```
+*/ ```
 
 Replace "My Child Theme" with the name of your child theme, and "simple-arkitekter-theme" with the name of the Simple Arkitekter Theme directory.
 
