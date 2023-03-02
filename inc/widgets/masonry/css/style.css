@@ -1,0 +1,172 @@
+#ms-container {
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.ms-item {
+	float: left;
+	margin-bottom: 27px;
+	vertical-align: top;
+	width: 23.641%;
+	display: none;
+}
+
+.ms-item .content {
+	position: relative;
+}
+
+.ms-item .title-wrap {
+	background: rgba(128, 129, 132, 0.8);
+	height: 99.1%;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 1s;
+	width: 100%;
+	z-index: 9;
+}
+
+.content:hover .title-wrap {
+	opacity: 1;
+}
+
+.ms-item .label {
+	height: 140px;
+	margin: auto;
+	padding: 0 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.ms-item .label h3 {
+	color: #ffffff;
+	font-weight: 700;
+	margin: 0 0 10px;
+	text-transform: uppercase;
+}
+
+.ms-item .label h3.title {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.ms-item .label span {
+	color: #ffffff;
+	font-weight: 300;
+}
+
+.content img {
+	display: inline-block;
+	width: 100%;
+}
+
+.content:hover img {
+	opacity: 0.9;
+}
+
+body.lity-link .lity-container {
+	max-width:  1366px !important;
+}
+
+body.lity-link .lity-iframe-container {
+	padding-top: 60% !important;
+}
+
+
+@media screen and ( max-width: 1645px ) {
+	.ms-item {
+		width: 23.55%;
+	}
+}
+
+@media screen and ( max-width: 1560px ) {
+	.ms-item {
+		width: 23.36%;
+	}
+}
+
+@media screen and ( max-width: 1400px ) {
+	.ms-item {
+		width: 23.35%;
+	}
+}
+
+@media screen and ( max-width: 1365px ) {
+	.ms-item {
+		width: 23.1%;
+	}
+}
+
+@media screen and ( max-width: 1200px ) {
+	.ms-item {
+		width: 22.7%;
+	}
+
+	.ms-item .label h3,
+	.ms-item .label h3.title {
+	    font-size: 18px;
+	    line-height: 22px;
+	}
+
+	.ms-item .label span {
+	    font-size: 14px;
+	}
+}
+
+@media screen and ( max-width: 991px ) {
+	.ms-item {
+		width: 31.1%;
+	}
+}
+
+@media screen and ( max-width: 900px ) {
+	.ms-item {
+		width: 30.8%;
+	}
+}
+
+@media screen and ( max-width: 800px ) {
+	.ms-item {
+		width: 47.85%;
+	}
+}
+
+@media screen and ( max-width: 700px ) {
+	.ms-item {
+		width: 47.45%;
+	}
+}
+
+@media screen and ( max-width: 599px ) {
+	.ms-item {
+		width: 46.8%;
+	}
+}
+
+@media screen and ( max-width: 479px ) {
+	.ms-item {
+		margin-bottom: 25px;
+		width: 100%;
+	}
+
+	.ms-item .title-wrap {
+	    height: 99.3%;
+	}
+
+	.ms-item .label h3,
+	.ms-item .label h3.title {
+	    font-size: 20px;
+	    line-height: 24px;
+	}
+
+	.ms-item .label span {
+	    font-size: 16px;
+	}
+}

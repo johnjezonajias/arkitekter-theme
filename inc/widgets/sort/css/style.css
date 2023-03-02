@@ -1,0 +1,135 @@
+
+.page-id-9 #menu-item-30,
+.page-id-9 #menu-item-30 .sub-menu {
+	padding-top: 0 ;
+	margin-top: -1px;
+}
+
+.page-id-9 #menu-item-30 .sub-menu {
+	padding-top: 1px;
+}
+
+#filters {
+	list-style: none;
+	clear: both;
+}
+
+div#filters button.buttons {
+	color: #e74424;
+}
+
+#filters button.button,
+div#filters button.buttons {
+    background: transparent;
+    border: 0;
+    font-size: 15px;
+    /*margin-left: 85px;*/
+    text-transform: uppercase;
+    outline: none;
+    padding: 1px 0 0;
+}
+
+#filters button.button:hover,
+#filters button.button.is-checked,
+div#filters button.buttons.is-checked {
+    color: #e74424;
+}
+
+#filters button.button:first-child {
+    margin-left: 0;
+}
+
+.grid {
+	display: table;
+	text-align: center;
+	margin-left: -0.5%;
+	margin-right: -0.5%;
+	width: 100%;
+}
+
+.element-item  {
+	float: left;
+	padding: 0 0.5% 1%;
+    overflow: hidden;
+    width: 25%;
+}
+
+.element-item .content {
+	position: relative;
+}
+
+.element-item .content img {
+	display: block;
+	width: 100%;
+}
+
+.element-item .title-wrap {
+	background: rgba(128, 129, 132, 0.8);
+	height: 100%;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 1s;
+	width: 100%;
+	z-index: 9;
+}
+
+.content:hover .title-wrap {
+	opacity: 1;
+}
+
+.element-item .label {
+	height: 50px;
+	margin: auto;
+	padding: 0 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.element-item .label h3 {
+	color: #ffffff;
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 28px;
+	margin: 0 0 10px;
+	text-transform: uppercase;
+}
+
+.element-item .label h3 span {
+	font-weight: 300;
+}
+
+.content:hover img {
+	opacity: 0.9;
+}
+
+@media screen and ( max-width: 1160px ) {
+	.element-item {
+		width: 33.333%;
+	}
+}
+
+@media screen and ( max-width: 1080px ) {
+	.element-item .label h3 {
+	    font-size: 18px;
+	    line-height: 22px;
+	}
+}
+
+
+@media screen and ( max-width: 800px ) {
+	.element-item {
+		width: 50%;
+	}
+}
+
+@media screen and ( max-width: 480px ) {
+	.element-item {
+		width: 100%;
+	}
+}

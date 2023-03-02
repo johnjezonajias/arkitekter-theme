@@ -1,0 +1,50 @@
+#profile-wrap {
+	display: block;
+	width: 100%;
+}
+
+#profile-wrap .profile-img {
+	float: left;
+	margin-bottom: 40px;
+	width: 100%;
+}
+
+#profile-wrap .profile-content {
+	float: left;
+	width: 100%;
+}
+
+#profile-wrap .profile-content h3 {
+	font-size: 20px;
+	margin: 0;
+}
+
+#profile-wrap .profile-content p {
+	margin: 0;
+}
+
+#profile-wrap .profile-content p.phone {
+	margin-top: 22px;
+}
+
+#profile-wrap .profile-content p.cv {
+	margin-top: 22px;
+}
+
+#profile-wrap .profile-content p.cv a {
+	color: #818285;
+	text-decoration: underline;
+}
+
+@media all and (max-width: 768px) {
+	#profile-wrap {
+		display: table;
+		float: none;
+		margin: 0 auto 8%;
+		max-width: 540px;
+	}
+
+	#profile-wrap .profile-img {
+	    margin-bottom: 10px;
+	}
+}

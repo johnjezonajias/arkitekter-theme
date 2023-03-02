@@ -1,0 +1,44 @@
+.project-box {
+	margin-top: 16px;
+}
+
+.project-box .row {
+	display: inline-block;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.project-box .row:first-child {
+	margin-top: 0;
+}
+
+.project-box .label {
+	float: left;
+	font-weight: 700;
+	text-transform: uppercase;
+	width: 20%;
+}
+
+.project-box .details {
+	float: left;
+	width: 80%;
+}
+
+@media all and (max-width: 1366px) {
+	.project-box .label {
+		width: 160px;
+	}
+}
+
+@media all and (max-width: 992px) {
+	.project-box .label {
+		width: 20%;
+	}
+}
+
+@media all and (max-width: 768px) {
+	.project-box .label,
+	.project-box .details {
+		width: 100%;
+	}
+}
